@@ -9,7 +9,7 @@
     "backend"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client:dev": "npm run --workspace=client dev"
   },
   "repository": {
     "type": "git",
