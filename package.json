@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "0.0.1",
+  "description": "Mern + monorepositorio",
+  "main": "index.js",
+  "type": "module",
+  "workspaces":["client"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngeScobedo/mern.git"
+  },
+  "author": "Alan Escobedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngeScobedo/mern/issues"
+  },
+  "homepage": "https://github.com/IngeScobedo/mern#readme"
+}
