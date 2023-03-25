@@ -4,7 +4,10 @@
   "description": "Mern + monorepositorio",
   "main": "index.js",
   "type": "module",
-  "workspaces":["client"],
+  "workspaces": [
+    "client",
+    "backend"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/IngeScobedo/mern/issues"
   },
-  "homepage": "https://github.com/IngeScobedo/mern#readme"
+  "homepage": "https://github.com/IngeScobedo/mern#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
